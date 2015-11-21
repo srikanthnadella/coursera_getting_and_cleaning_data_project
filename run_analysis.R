@@ -1,5 +1,5 @@
-setwd("~/Developer/datasciencecourse/3_getting_and_cleaning_data/course project/coursera_getting_and_cleaning_data_project/")
-getwd()
+# setwd("~/Developer/datasciencecourse/3_getting_and_cleaning_data/course project/coursera_getting_and_cleaning_data_project/")
+# getwd()
 
 ## Step1. Merges the training and the test sets to create one data set.
 X_train <- read.csv("./UCI HAR Dataset/train/X_train.txt", sep = "", header = FALSE)
